@@ -1,43 +1,30 @@
-@media (max-width: 576px) {
-  .app {
-    padding-top: 10vh;
+@media (max-width: 768px) {
+  .wrapper {
+    padding: 3rem 1rem;
   }
 
-  .form {
-    width: 100%;
-  }
-
-  .city-input {
-    display: block;
-    width: 100%;
-    padding: 0.7rem 1rem;
-    border-top-right-radius: 8px;
-    border-bottom-left-radius: 0;
+  .header {
     text-align: center;
   }
 
-  .get-btn {
-    display: block;
+  .add-input {
     width: 100%;
-    padding: 0.7rem 1rem;
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
-    border-bottom-left-radius: 8px;
-    border-bottom-right-radius: 8px;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    padding: 0.9rem 0.8rem 0.8rem 0.8rem;
+    text-align: center;
+    border: 1px solid #7478ea;
+    border-bottom: 0;
+    border-radius: 5px 5px 0px 0px;
   }
 
-  .loading-btn {
-    display: block;
+  .add-btn {
     width: 100%;
-    padding: 0.7rem 1rem;
-    border-top-right-radius: 0;
-    border-bottom-left-radius: 8px;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    padding: 0.9rem 0.8rem 0.8rem 0.8rem;
+    border-radius: 0px 0px 5px 5px;
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0.24);
+    border-top: 0;
   }
 
-  .city-examples {
-    margin: 0.7rem 0;
+  .no-tasks-msg {
     text-align: center;
   }
 }
