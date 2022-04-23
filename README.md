@@ -5,5 +5,5 @@
 ## To run:
 
 ```bash
-git clone https://github.com/atumv/todo-ts.git && cd todo-ts && npm i && npm start
+git clone https://github.com/atumv/todo-redux.git && cd todo-redux && npm i && npm start
 ```
